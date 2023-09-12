@@ -13,7 +13,7 @@ con la libreria socket.io mostrando asi la informacion del cliente en la venta d
 Para poder probar el proyecto 
 - `abrir Visual Studio Code`
 - `abrir la terminal que use git bash`
-- escrbir el comando `git clone` y pegar la url que proporciona este repositorio para tener la copia del proyecto y poder porbarlo de manera local
+- escrbir el comando `git clone` y pegar la url que proporciona este repositorio para tener la copia del proyecto y poder probarlo de manera local
 
 ### Ejecución
 
