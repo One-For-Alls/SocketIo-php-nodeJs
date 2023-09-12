@@ -24,7 +24,7 @@ Para poder probar el proyecto
 
 ### Node JS + Express
 
-- Para el caso de node es importante tener instalado `NodeJs`, puedes descargarlo [Aquí](https://nodejs.org/es), ya que esto nos servira para trabajar en el entorno de node
+- Para el caso de node es importante tener instalado `NodeJs`, puedes descargarlo ![Aquí](https://nodejs.org/es), ya que esto nos servira para trabajar en el entorno de node
 - Luego una vez que tengamos todo listo, en git bash ejecutamos el comando `node index.js` para levantar el servidor que en su defecto sera el puerto 3000, te dejo la ruta para el acceso ![Aqui](http://localhost:3000/)
 
   ### Notas Finales
