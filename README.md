@@ -6,7 +6,7 @@ El mini proyecto se compone de dos carpetas:
 - `CHAT (Server Node - Express)`
 - `datos-php (Cliente)`
 
-El cliente basado en php se comunica directamente con la ruta del servidor la cual seria ![](http://localhost:3000/) enviandole un dato y el servidor recepciona ese dato
+El cliente basado en php se comunica directamente con la ruta del servidor la cual seria [](http://localhost:3000/) enviandole un dato y el servidor recepciona ese dato
 con la libreria socket.io mostrando asi la informacion del cliente en la venta del chat del servidor.
 
 ### Instalacion
@@ -24,8 +24,8 @@ Para poder probar el proyecto
 
 ### Node JS + Express
 
-- Para el caso de node es importante tener instalado `NodeJs`, puedes descargarlo ![Aquí](https://nodejs.org/es), ya que esto nos servira para trabajar en el entorno de node
-- Luego una vez que tengamos todo listo, en git bash ejecutamos el comando `node index.js` para levantar el servidor que en su defecto sera el puerto 3000, te dejo la ruta para el acceso ![Aqui](http://localhost:3000/)
+- Para el caso de node es importante tener instalado `NodeJs`, puedes descargarlo [Aquí](https://nodejs.org/es), ya que esto nos servira para trabajar en el entorno de node
+- Luego una vez que tengamos todo listo, en git bash ejecutamos el comando `node index.js` para levantar el servidor que en su defecto sera el puerto 3000, te dejo la ruta para el acceso [Aqui](http://localhost:3000/)
 
   ### Notas Finales
   Al abrir el cliente php este enviara informacion al chat del servidor nodeJs
