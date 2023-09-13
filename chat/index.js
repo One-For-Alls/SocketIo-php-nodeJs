@@ -13,7 +13,6 @@ const io = new Server(server);
 
 app.use(express.json());
 app.use(express.urlencoded())
-app.use('assets', express.static('assets'));
 
 app.get('/', (req, res) => {
   res.sendFile(__dirname + '/index.html');
@@ -23,18 +22,10 @@ let messages;
 
 app.post("/", function(req,res){
   messages = req.body.nick;
-  res.status(200).send('Datos recibidos y guardados en el servidor nodeJs.');
-});
+  
+  res.status(200).send('Datos recibidos desde php');
 
-io.on("connection", function (socket) {
-  console.log("Alguien se ha conectado con Sockets");
-  socket.emit("messages", messages);
-
-  socket.on("new-message", function (data) {
-    console.log('datos desde php: ' + data)
-
-    io.emit("messages", data);
-  });
+  io.emit("messages", messages);
 });
 
 server.listen(3000, () => {

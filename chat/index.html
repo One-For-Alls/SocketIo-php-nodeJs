@@ -34,7 +34,10 @@
       console.log(msg);
       const messages = document.getElementById('messages');
       messages.innerHTML = msg;
-
+    
+    document.addEventListener('submit', (e) => {
+      e.preventDefault();
+    })
     window.scrollTo(0, document.body.scrollHeight);
   });
 </script>
