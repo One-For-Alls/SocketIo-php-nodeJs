@@ -28,7 +28,4 @@ Para poder probar el proyecto
 - Luego una vez que tengamos todo listo, en git bash ejecutamos el comando `node index.js` para levantar el servidor que en su defecto sera el puerto 3000, te dejo la ruta para el acceso [Aqui](http://localhost:3000/)
 
   ### Notas Finales
-  Al abrir el cliente php este enviara informacion al chat del servidor nodeJs
-
-  ### Importante
-  una vez abirto la url cliente en `localhost`, recargar la ventana del Servidor para apreciar el mensaje enviado, o por su defecto digitar cualquier letra del input para su visualizacion, a un no se puedo resolver ese pequeño bug.
+  Al abrir el cliente php este enviara informacion al chat del servidor nodeJs de manera automatica y en tiempo real.
